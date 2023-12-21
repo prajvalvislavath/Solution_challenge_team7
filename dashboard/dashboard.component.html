@@ -1,0 +1,15 @@
+<form action="">
+    <legend>
+        <label for="">Dashboard</label>
+<div>
+    <h2>Dashboard</h2>
+    <div>
+      <button (click)="captureImage()">Capture Image</button>
+      <button (click)="captureFingerprint()">Capture Fingerprint</button>
+    </div>
+    <img *ngIf="capturedImageData" [src]="capturedImageData" alt="Captured Image">
+
+  </div>
+  
+    </legend>
+</form>
